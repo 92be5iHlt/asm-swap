@@ -1,0 +1,419 @@
+/* Start Reset */
+
+a, body, div, h1, h2, h3, h4, h5, h6, header, html, img, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+header {
+	display: block
+}
+
+body {
+	line-height: 1
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+	background-color: #0e111ae0;
+	background-image: url(./../images/bg.jpg)
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0
+}
+
+* {
+	box-sizing: border-box
+}
+
+/* End Reset */
+
+h3 {
+	font-family: Kanit;
+	color: #d5d5d5;
+	font-size: 2rem
+}
+
+p {
+	font-family: Heebo;
+	color: #d5d5d5;
+	font-size: 18px
+}
+
+.header-left p {
+	height: 16px;
+	font-family: Heebo, sans-serif!important;
+	font-size: 16px;
+	letter-spacing: .12px;
+	color: #fff;
+	font-weight: bolder
+}
+
+.header-right img {
+	background-color: #1a1c29;
+	border: .1px solid #1a1c29;
+	border-radius: 10px
+}
+
+.main-container {
+	width: 700px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #0e111a;
+	padding: 15px 25px 100px;
+	box-shadow: 0 0 9px 4px rgba(0, 0, 0, .43)
+}
+
+.second-container {
+	padding: 50px 20px;
+	background-color: #30333e;
+	border-radius: 10px;
+	margin-top: 120px;
+	box-shadow: 0 0 2px 3px rgba(0, 0, 0, .25);
+	position: relative
+}
+
+.header {
+	display: flex;
+	justify-content: space-between
+}
+
+.first-row {
+	display: flex;
+	border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+	background-color: #141720
+}
+
+.row-left {
+	display: flex;
+	position: relative;
+	cursor: pointer
+}
+
+.row-left img {
+	width: 54px;
+	height: 54px;
+	background-color: #141720;
+	border: transparent;
+	box-shadow: rgba(0, 0, 0, .075) 0 6px 10px;
+	border-radius: 10px
+}
+
+.row-left-text p {
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 15px;
+	color: #fff!important
+}
+
+.row-left-text h3 {
+	font-weight: bolder
+}
+
+.row-left-text {
+	margin-top: 5px;
+	margin-left: 10px
+}
+
+.row-right {
+	position: absolute;
+	left: 20%
+}
+
+.row-right input {
+	background-color: transparent;
+	border: none;
+	color: #d5d5d5;
+	font-size: 30px;
+	appearance: textfield;
+	font-family: Kanit;
+	font-weight: 500;
+	position: absolute;
+	left: 80px;
+	width: 250px;
+    margin-bottom:20px;
+	max-width: 348px
+}
+
+.row-right input:focus, select:focus {
+	outline: 0;
+    background-color: transparent;
+    color: #d5d5d5;
+}
+
+div.first-row:nth-child(2) {
+	margin-top: 40px
+}
+
+div.first-row:nth-child(2)>div:nth-child(1)>div:nth-child(2) p {
+	line-height: 15px;
+	color: rgba(127, 127, 127);
+	font-weight: 900
+}
+
+div.first-row:nth-child(2)>div:nth-child(1)>div:nth-child(2) {
+	padding-bottom: 8px
+}
+
+div.first-row:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 54px;
+	height: 54px;
+	color: #fff;
+	position: relative
+}
+
+div.first-row:nth-child(2)>div:nth-child(1)>div:nth-child(1)>p:nth-child(1) {
+	position: absolute;
+	font-size: 45px;
+	left: 30%;
+	top: -10px;
+	font-family: Kanit
+}
+
+div.first-row:nth-child(2)>div:nth-child(2)>input:nth-child(1) {
+	left: 80px;
+	width: 348px;
+	max-width: 348px
+}
+
+hr {
+	color: #30333e;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100%
+}
+
+.wallet-btn {
+	border-radius: 5px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center
+}
+
+.list p {
+	position: relative;
+	left: 45px;
+	font-size: 12px;
+	font-weight: lighter;
+	bottom: 35px
+}
+
+.wallet-btn button {
+	background-color: #999a9c;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 110%;
+	width: 100%;
+	padding: 20px 0;
+	font-family: Heebo;
+	border-radius: 5px
+}
+
+.down-arrow img {
+	width: 15px;
+	height: 10px;
+	position: absolute;
+	top: 50%
+}
+
+.guide-arrow {
+	width: 22px;
+	height: 26px;
+	position: absolute;
+	left: 50%;
+	top: 31%
+}
+
+.overlay {
+	width: 416px;
+	color: #fff;
+	background-color: #30333e;
+	border-radius: 10px;
+	padding-bottom: 0;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+	position: absolute;
+	box-shadow: 0 0 9px 4px rgba(0, 0, 0, .43);
+	z-index: 1
+}
+
+.please2 {
+	font-size: 20px;
+	margin-top: 5px;
+	font-weight: bolder!important
+}
+
+.please {
+	font-size: 20px;
+	margin-top: 5px;
+	font-weight: bolder!important
+}
+
+.swap {
+	width: 416px;
+	color: #fff;
+	background-color: #30333e;
+	border-radius: 10px;
+	padding: 20px;
+	height: 680px;
+	overflow: scroll;
+	position: absolute;
+	z-index: 1;
+	top: 10%;
+	left: 40%
+}
+
+.overlay-header {
+	display: flex;
+	justify-content: space-between
+}
+
+.overlay-header h4 {
+	font-family: Heebo;
+	font-weight: 700
+}
+
+.crypto-list {
+	display: flex;
+	font-family: Heebo;
+	margin-bottom: 15px;
+	cursor: pointer
+}
+
+.crypto-list:hover {
+	color: #ffebcd
+}
+
+.swap-list {
+	display: flex;
+	font-family: Heebo;
+	margin-bottom: 15px;
+	cursor: pointer
+}
+
+.swap-text h5 {
+	font-weight: bolder
+}
+
+.crypto-list p {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #6c7284
+}
+
+.crypto-list h5 {
+	font-size: 16px;
+	font-weight: 600
+}
+
+.swap-list p {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #6c7284
+}
+
+.swap-list h5 {
+	font-size: 16px;
+	font-weight: 600
+}
+
+.list-image {
+	margin-top: 5px;
+	margin-right: 15px
+}
+
+.list-image img {
+	width: 30px;
+	height: 30px
+}
+
+.swap-image {
+	margin-top: 5px;
+	margin-right: 15px
+}
+
+.swap-image img {
+	width: 30px;
+	height: 30px
+}
+
+.list {
+	display: grid
+}
+
+.hidden {
+	display: none
+}
+
+.close {
+	cursor: pointer
+}
+
+/* Below section is for the mobile portions */
+
+
+
+
+@media only screen and (max-width: 375px) {
+	.main-container {
+	  width: 100vw;
+	}
+  
+	.row-right input {
+	  left: 130px;
+	  width: 87px;
+	}
+  
+	div.first-row:nth-child(2) > div:nth-child(2) > input:nth-child(1) {
+	  left: 130px;
+	  width: 87px;
+	  font-size:20px;
+	  top:10px;
+	}
+  
+	.overlay {
+	  left: 45px;
+	  width: 80%;
+	}
+  
+	.body {
+	  overflow: hidden;
+	}
+  }
+  
+  @media only screen and (max-width: 688px) and (min-width: 376px) {
+	.main-container {
+	  width: 414px;
+	}
+  
+	.row-right input {
+	  left: 130px;
+	  width: 140px;
+	}
+  
+	div.first-row:nth-child(2) > div:nth-child(2) > input:nth-child(1) {
+	  left: 130px;
+	  width: 140px;
+	}
+  }
